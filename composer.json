@@ -1,0 +1,62 @@
+{
+    "name": "youvision/think-printer",
+    "description": "ThinkPHP8 云打印扩展，基于 pkg6/cloud-print，支持飞鹅云、芯烨云、易联云、快递100、映美云、佳博云、中午云、优声云",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "thinkphp",
+        "think-printer",
+        "cloud-print",
+        "云打印",
+        "云小票机",
+        "飞鹅云",
+        "芯烨云",
+        "易联云",
+        "快递100",
+        "映美云",
+        "佳博云",
+        "中午云",
+        "优声云"
+    ],
+    "authors": [
+        {
+            "name": "youvision"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "pkg6/cloud-print": "^1.0",
+        "psr/log": "^2.0|^3.0",
+        "psr/simple-cache": "^1.0|^2.0|^3.0",
+        "topthink/framework": "^8.0"
+    },
+    "require-dev": {
+
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Youvision\\ThinkPrinter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youvision\\ThinkPrinter\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Youvision\\ThinkPrinter\\Service"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
