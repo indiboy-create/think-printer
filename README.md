@@ -1,3 +1,8 @@
+## ThinkPHP-PanGu - 盘古ThinkPHP开源索引!
+面向 ThinkPHP 的开源工程索引：组件、框架、服务与发布工具，按能力组织，持续整理。
+仓库地址：**<https://github.com/indiboy-create/ThinkPHP-PanGu/>**
+在线站点：**<https://indiboy-create.github.io/ThinkPHP-PanGu/>**
+
 # youvision/think-printer
 
 基于 [pkg6/cloud-print](https://github.com/pkg6/cloud-print) 的 ThinkPHP 8 云打印扩展，统一封装飞鹅云、芯烨云、易联云、快递100、映美云、佳博云、中午云、优声云。
